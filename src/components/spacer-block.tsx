@@ -25,7 +25,7 @@ export function SpacerBlock({
     <div
       aria-hidden
       style={{ height: `${height}px` }}
-      className={cn(border && 'border border-dashed border-neutral-500', className)}
+      className={cn(border && 'border border-dashed border-sky-500', className)}
     />
   )
 }
