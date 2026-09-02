@@ -1,6 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react-vite'
 import { SpacerBlock } from '@/components/spacer-block'
 
+// Matches apps/storybook/src/stories/spacer-block.stories.tsx (hgu-platform) exactly.
+
 const meta: Meta<typeof SpacerBlock> = {
   title: 'Blocks/SpacerBlock',
   component: SpacerBlock,
@@ -20,6 +22,14 @@ type Story = StoryObj<typeof SpacerBlock>
 
 export const Default: Story = {
   args: { variant: 'visible', height: 32 },
+}
+
+export const Tall: Story = {
+  args: { variant: 'visible', height: 120 },
+}
+
+export const Invisible: Story = {
+  args: { variant: 'invisible', height: 120 },
 }
 
 export const WithBorder: Story = {
