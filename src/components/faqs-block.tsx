@@ -78,7 +78,7 @@ export function FAQsBlock({
   return (
     <section ref={containerRef} className={cn(className)} style={primaryYellowStyle}>
       <div className="mx-auto w-full max-w-3xl px-6">
-        <h2 className="mb-8 text-center text-2xl font-light text-white md:text-3xl">{heading}</h2>
+        <h2 className="mb-8 text-center text-2xl font-bold text-white md:text-3xl">{heading}</h2>
         <Accordion type="single" collapsible value={openValue} onValueChange={handleValueChange}>
           {items.map((item, index) => (
             <AccordionItem key={index} value={String(index)}>
