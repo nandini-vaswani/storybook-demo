@@ -1,12 +1,14 @@
 @import 'tailwindcss';
 
-/* Trimmed down from apps/web/src/app/globals.css (hgu-platform) — only the tokens
-   SpacerBlock and Badge actually reference, not the full design system. */
+/* Trimmed down from apps/web/src/app/globals.css (hgu-platform) — only the tokens the
+   ported blocks actually reference, not the full design system. */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
   --color-primary-500: var(--primary-500);
+  --color-primary-600: var(--primary-600);
+  --color-primary-700: var(--primary-700);
   --color-secondary: var(--secondary);
   --color-accent: var(--accent);
   --color-accent-foreground: var(--accent-foreground);
@@ -14,6 +16,7 @@
   --color-border: var(--border);
   --color-border-light: var(--border-light);
   --color-ring: var(--ring);
+  --max-width-content: 51rem;
 }
 
 :root {
@@ -21,6 +24,8 @@
   --foreground: oklch(0.145 0 0);
   --primary: oklch(0.205 0 0);
   --primary-500: oklch(0.8918 0.1838 96.97);
+  --primary-600: oklch(0.813 0.1674 97.39);
+  --primary-700: oklch(0.7249 0.1478 89.24);
   --secondary: oklch(0.97 0 0);
   --accent: oklch(0.97 0 0);
   --accent-foreground: oklch(0.205 0 0);
