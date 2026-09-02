@@ -90,7 +90,7 @@ const dis =
 
 const prominenceStyles: Record<CtaProminence, Record<CtaTheme, string>> = {
   primary: {
-    light: `bg-primary-500 text-black border border-primary-600 ${insetShadow} hover:bg-primary-700 active:bg-[#C2A300] ${focusWithInset} ${dis}`,
+    light: `bg-[#22c55e] text-black border border-primary-600 ${insetShadow} hover:bg-primary-700 active:bg-[#C2A300] ${focusWithInset} ${dis}`,
     dark: `bg-black text-[#F5F6F6] border border-[#4E5050] hover:bg-[#444546] ${focusRingOnly} ${dis}`,
   },
   secondary: {
