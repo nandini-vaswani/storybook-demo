@@ -44,7 +44,7 @@ export const ColorBackground: Story = {
     message: 'Ready to see where this leads?',
     ctas,
     backgroundType: 'color',
-    backgroundColor: '#1a1a1a',
+    backgroundColor: '#0e6e74',
     heightDesktopPreset: 'tall',
     heightMobilePreset: 'tall',
   },
